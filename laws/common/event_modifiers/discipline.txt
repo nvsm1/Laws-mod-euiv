@@ -1,0 +1,19 @@
+### Discipline Laws ###
+
+discipline_laws_norm = {
+	infantry_cost = 0.05
+	discipline = 0.05
+	recover_army_morale_speed = -0.05
+}
+
+discipline_laws_high = {
+	infantry_cost = 0.1
+	discipline = 0.1
+	recover_army_morale_speed = -0.1
+}
+
+discipline_laws_low = {
+	infantry_cost = -0.05
+	discipline = -0.025
+	recover_army_morale_speed = 0.05
+}

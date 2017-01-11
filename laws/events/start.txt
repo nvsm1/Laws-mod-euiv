@@ -1,0 +1,108 @@
+##### Starting Events that add the normal modifiers #####
+
+namespace = starteventsMOD
+
+country_event = {
+	id = starteventsMOD.1
+	title = "starteventsMOD.1.t"
+	desc = "starteventsMOD.1.d"
+	picture = LAWS_eventPicture
+	fire_only_once = yes
+	
+	trigger = {
+		NOT = {
+			has_country_flag = had_first_event
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "starteventsMOD.1.opta"
+		set_country_flag = had_first_event
+		add_country_modifier = {
+			name = "tax_laws_high"
+			duration = -1
+		}
+		add_country_modifier = {
+			name = "crime_laws_high"
+			duration = -1
+		}
+		add_country_modifier = {
+			name = "conscription_laws_mandatory"
+			duration = -1
+		}
+		add_country_modifier = {
+			name = "trade_laws_closed"
+			duration = -1
+		}
+		add_country_modifier = {
+			name = "revolt_laws_high"
+			duration = -1
+		}
+		add_country_modifier = {
+			name = "discipline_laws_high"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "starteventsMOD.1.optb"
+		set_country_flag = had_first_event
+		add_country_modifier = {
+			name = "tax_laws_norm"
+			duration = -1
+		}
+		add_country_modifier = {
+			name = "crime_laws_norm"
+			duration = -1
+		}
+		add_country_modifier = {
+			name = "conscription_laws_voluntary"
+			duration = -1
+		}
+		add_country_modifier = {
+			name = "trade_laws_norm"
+			duration = -1
+		}
+		add_country_modifier = {
+			name = "revolt_laws_norm"
+			duration = -1
+		}
+		add_country_modifier = {
+			name = "discipline_laws_norm"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "starteventsMOD.1.optc"
+		set_country_flag = had_first_event
+		add_country_modifier = {
+			name = "tax_laws_low"
+			duration = -1
+		}
+		add_country_modifier = {
+			name = "crime_laws_low"
+			duration = -1
+		}
+		add_country_modifier = {
+			name = "conscription_laws_meh"
+			duration = -1
+		}
+		add_country_modifier = {
+			name = "trade_laws_low"
+			duration = -1
+		}
+		add_country_modifier = {
+			name = "revolt_laws_low"
+			duration = -1
+		}
+		add_country_modifier = {
+			name = "discipline_laws_low"
+			duration = -1
+		}
+	}
+}

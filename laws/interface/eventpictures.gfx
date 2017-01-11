@@ -1,0 +1,7 @@
+spriteTypes = {
+	spriteType = {
+		name = "LAWS_eventPicture"
+		texturefile = "gfx/event_pictures/LAWS_eventPicture.dds"
+		allwaystransparent = yes
+	}
+}
